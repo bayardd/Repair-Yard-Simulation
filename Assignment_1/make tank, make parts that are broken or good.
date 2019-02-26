@@ -1,0 +1,14 @@
+i9pmake tank, make parts that are broken or good.
+
+constructor(makes tank and randomly decides number of parts){
+	probably contains standard deviation and mean there
+}
+
+make one gptr and have it in main, pass it to constructor
+default random engine is an object, when you say time(null) it makes a seed and sends it in a random location.
+gptr is pointing to that thing. returns number from 0 to 1, which is fed to standard deviation. As many different distributions as you want,
+but only one.
+
+but vehicles composed of parts in a list, then queue eventually
+generate broken part 60% or less consider it broken, otherwise consider it fine.
+tank class contains list of parts. 2 lists, 1 broken 1 not broken?

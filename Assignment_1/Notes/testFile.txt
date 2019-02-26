@@ -1,0 +1,10 @@
+send vehicles to repair que to scrap yard, judged by scrap yard function. send vehicles to repair bays, which will take a certain amount of time to repair. Go to first bay, scan broken parts and search scrap yard for parts, if not there go to supply. If not in either, move vehicle to priority que or to the scrap yard. Maybe broken parts are generated or are added to scrap yard. 
+
+1.Score vehicles,
+2.keep track of parts and how long they take to swap. 
+
+part time is dependent on the part number. 
+
+visit each repair bay one at a time, sequentially, then move after.
+
+threshold for junkyard is half (based on number of parts and those that are broken)
