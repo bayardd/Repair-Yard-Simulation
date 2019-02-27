@@ -13,7 +13,7 @@ protected:
     int vehicleID;
     std::string name;
     std::list<int> brokenParts;
-	std::list<int> workingParts;
+	  std::list<int> workingParts;
     std::list<int>::iterator itr;
 
 
@@ -31,7 +31,7 @@ public:
     std::list<int>::iterator workingListEnd() { return workingParts.end(); }
     std::list<int>::iterator brokenListBegin(){ return brokenParts.begin();}
     std::list<int>::iterator brokenListEnd(){ return brokenParts.end();}
-    
+
 
     void setID(const int ID){vehicleID = ID;}
     int getID()const {return vehicleID;}

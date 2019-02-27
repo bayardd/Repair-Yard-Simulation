@@ -5,3 +5,5 @@ Listed below are the vehicles generated:
  displaying vehicle number 0 From Vehicle list
 displaying vehicle number 1 From Vehicle list
 displaying vehicle number 2 From Vehicle list
+displaying vehicle number 3 From Vehicle list
+displaying vehicle number 4 From Vehicle list

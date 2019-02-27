@@ -2,23 +2,25 @@
 
 RepairBay::RepairBay(){
 	counter = 0;
-	std::vector<Vehicle*> Bays(3, nullptr);
-
+	size = 0;
+	toRepair = nullptr;
 }
 
 //Returns True if full
 bool RepairBay::bayFull(){
-	return(Bays.size() == 3);
 
+	std::cout << "SIZE HEERE IS " << this->size << std::endl;
+	return(size == 3);
 }
 
 void RepairBay::addToRepair(Vehicle* toAdd){
-
-	Bays.push_back(toAdd);
+	//Check if this is valid.. might have address issues
+	toRepair = toAdd;
 }
 
 void RepairBay::calculateRepairTime(){
-
-	
+	auto it = max_element(toRepair->brokenListBegin(), toRepair->brokenListEnd());
+	counter = (*it)/4;
+	std::cout << "MAX TIME " << counter<<std::endl;
 
 }
