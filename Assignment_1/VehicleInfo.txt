@@ -1,7 +1,0 @@
-This is the start of the Vehicle Repair Simulation  
-
-Listed below are the vehicles generated: 
-
- displaying vehicle number 0 From Vehicle list
-displaying vehicle number 1 From Vehicle list
-displaying vehicle number 2 From Vehicle list
